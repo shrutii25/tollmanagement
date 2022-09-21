@@ -1,0 +1,2 @@
+export const VEHICLE_RECORD_KEY = "VEHICLE_RECORD_KEY";
+export const TOLL_RECORD_KEY = "TOLL_RECORD_KEY";

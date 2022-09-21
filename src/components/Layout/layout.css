@@ -1,0 +1,41 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.header {
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: var(--color-primary);
+}
+
+.heading {
+  /* text-align: center; */
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid rgb(210, 210, 210);
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: max-content;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-light);
+}

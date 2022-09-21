@@ -1,0 +1,28 @@
+.filter-container {
+  gap: 1rem;
+}
+
+.filter-wrapper {
+  position: relative;
+}
+.filter {
+  padding: 0.5rem;
+  position: absolute;
+  border-radius: 5px;
+  top: 100%;
+  left: 0;
+  background: var(--color-primary);
+  color: white;
+  width: 10rem;
+  z-index: 1;
+}
+
+.filter-item {
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.selected-filter {
+  background: var(--color-primary-light);
+}

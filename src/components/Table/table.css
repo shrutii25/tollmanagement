@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background: var(--color-primary);
+  color: white;
+}
+
+th {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+th,
+td {
+  padding: 8px 15px;
+}
+
+.bg-light-green {
+  background: rgb(248, 248, 248);
+}
